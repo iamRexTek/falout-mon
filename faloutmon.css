@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #343434;
+    background-image: linear-gradient(to right, #3e3e3e,  #000000);
+}
+
+h2 {
+    text-align: justify;
+    font-size: 3em;
+    margin-bottom: 2em;
+    
+}
+h1 {
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 2em;
+    color: rgb(222, 222, 0);
+    font-family: fantasy;
+    -webkit-text-stroke: 1px rgb(163, 203, 255);
+    font-style: italic;
+    
+}
+#seleccionar-mascota-btn{
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    color:rgb(38, 255, 0);
+    font-family: monospace;
+    font-size: x-large;
+    background-color: #1d1d1d;
+}
+h3{
+    text-align: center;
+    font-size: x-large;
+    color:rgb(38, 255, 0);
+    font-family: monospace;
+}
+label, p{
+    font-family: monospace;
+    color: rgb(38, 255, 0);
+}
+#ataque-fuego{
+    background-color: rgb(176, 184, 53);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-image: linear-gradient(to right, #f5ff6b,  #73884d);
+}
+#ataque-agua{
+    background-color: rgb(66, 66, 66);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-image: linear-gradient(to right, #a4a4a4,  #343434);
+}
+
+#ataque-tierra{
+    background-color: rgb(237, 202, 45);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-image: linear-gradient(to right, #ffea71,  #cc9304);
+}
+
+#seleccionar-mascota,
+#seleccionar-ataque {
+    padding: 2em;
+    border: 10px solid #2f2e2e;
+    border-radius: 15px;
+    margin-bottom: 2em;
+    background-color: rgb(0, 0, 0);
+    background-image: linear-gradient(to right, #1d1d1d,  #000000);
+}
+
+#seleccionar-mascota h2 {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+#seleccionar-mascota label {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+#seleccionar-mascota input[type="radio"] {
+    margin-right: 1em;
+}
+
+#seleccionar-ataque p {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+#seleccionar-ataque button {
+    margin-right: 1em;
+}

@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MOKEPON!</title>
+    <link rel="stylesheet" href="faloutmon.css">
+</head>
+<body>
+    
+    <h1>FalloutMon!</h1>
+
+    <section id="seleccionar-mascota">
+        <h3>Elige tu Morador</h3>
+
+        <label><input type="radio" name="mascota" value="hipodoge"> <img src="el de los bonais.jpg" width="50" height="30"/>Mensajero</label>
+        <label><input type="radio" name="mascota" value="capipepo"><img src="el del fierro viejo.webp" width="50" height="30"/> Ghoul</label>
+        <label><input type="radio" name="mascota" value="ratigueya"><img src="el de los metales.jpg" width="50" height="30"/>Asaltron</label>
+
+        <button id="seleccionar-mascota-btn">Seleccionar</button>
+    </section>
+
+    <section id="seleccionar-ataque" style="display:none;">
+        <p>Tu Morador tiene <span id="player-lives">3</span> vidas</p>
+        <p>El Morador del enemigo tiene <span id="enemy-lives">3</span> vidas</p>
+
+        <p>
+            <button id="ataque-fuego">☢️Ataque Radiactivo☢️</button>
+            <button id="ataque-agua">🪖Ataque Balistico🪖</button>
+            <button id="ataque-tierra">⚡Ataque de Energia⚡</button>
+        </p>
+    </section>
+
+    <script src="faloutmon.js"></script>
+</body>
